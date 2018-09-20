@@ -10,23 +10,6 @@ $("#scrape").on("click", function (){
   })
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Grab the articles as a json
 $.getJSON("/articles", function(data) {
   // For each one
